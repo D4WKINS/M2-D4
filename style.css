@@ -1,23 +1,11 @@
-
-.navbar-brand{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: solid 2px white;
+*{
+    box-sizing:border-box;
 }
 
-.nav-item{
-    margin-right:1em;
-}
-#search{
-transform: translateY(-50px);
+body{
+    height:100%;
 }
 
-.bg-overlay-1 {
-    color:white;
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("bg-1.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    color: #fff;
-    height: 400px;
-    padding-top: 50px;
+footer{
+    height:250px;
 }
